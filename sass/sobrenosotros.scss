@@ -1,0 +1,69 @@
+.container_sobrenosotros { 
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.article_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "class_imgjulian texto_julian"
+    "texto_florencia class_imgflorencia";
+    width: 100%;
+}
+
+.class_imgjulian {
+    grid-area: class_imgjulian;
+    display: flex;
+    justify-content: center;
+}
+
+.img_julian {
+    width: 80%;
+    height: 90%;
+    margin-top: 2.1cm;
+}
+
+.texto_julian {
+    color:aliceblue;
+    font-size: 25px;
+    grid-area: texto_julian;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 83%;
+    letter-spacing: 4.5px;
+    margin-top: 2cm;
+    text-align: justify;
+}
+
+.strong_julian {
+    color: rgb(222, 201, 173);
+}
+
+.class_imgflorencia {
+    grid-area: class_imgflorencia;
+    display: flex;
+    justify-content: center;
+    margin-top: 4cm;
+}
+
+.img_florencia {
+    width: 80%;
+    height: 90%;
+}    
+
+.texto_florencia {
+    grid-area: texto_florencia;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 90%;
+    letter-spacing: 4.5px;
+    margin-top: 3.9cm;
+    text-align: justify;
+    margin-left: 1.5cm;
+    padding-bottom: 2cm;
+}
+
+.strong_florencia {
+    color: rgb(222, 201, 173);
+}

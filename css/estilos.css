@@ -1,0 +1,599 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 65.5%;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background-color: rgb(60, 65, 66);
+}
+
+.class_div {
+  color: rgb(214, 192, 125);
+  font-size: 4em;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 6cm;
+}
+
+.navbar-nav {
+  font-size: 2rem;
+  margin-top: 3cm;
+}
+
+.class_nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-bottom: 0.5cm;
+}
+
+.logobodega {
+  width: 6cm;
+}
+
+li {
+  display: inline-block;
+}
+
+.ul_nav {
+  font-family: "Noto Sans JP", sans-serif;
+  list-style: none;
+  display: flex;
+  padding-top: 4cm;
+  overflow: hidden;
+}
+
+a:hover {
+  color: rgb(217, 195, 142);
+}
+
+.main_fondo {
+  background-image: url(https://cdn.pixabay.com/photo/2014/04/21/21/15/botti-329375_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: 1200px 1200px;
+  background-position: center;
+  margin-top: 3cm;
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 3cm;
+  display: flex;
+  align-items: center;
+}
+
+.section_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.texto_bodega {
+  color: rgb(195, 151, 99);
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  font-size: 4em;
+  width: 90%;
+  margin-top: 2cm;
+}
+
+footer {
+  background-color: rgb(60, 65, 66);
+  width: 100%;
+}
+
+.class_redes1 {
+  width: 20%;
+  margin-left: 70%;
+}
+
+.whatsaap1 {
+  position: fixed;
+  top: 670px;
+}
+
+.whatsaap {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    height: 170px;
+    width: 100%;
+  }
+  .class_redes1 {
+    width: 50%;
+    height: 90px;
+    margin-left: 0;
+  }
+}
+div {
+  color: aqua;
+}
+
+.container_nuestrosvinos {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.class_vinedo {
+  height: 2000px;
+}
+
+#section_vinos1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 60vh;
+  column-gap: 1px;
+  margin-bottom: 1cm;
+  width: 100%;
+  align-items: center;
+  overflow: hidden;
+}
+
+.titulo_cabernet {
+  color: rgb(195, 151, 99);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2cm;
+  margin-left: 1cm;
+}
+
+.imagen_cabernet {
+  margin-right: 0.2cm;
+  margin-top: 2cm;
+  margin-left: 0.5cm;
+  padding-right: 1cm;
+  padding-left: 0cm;
+}
+
+.texto_cabernet {
+  color: rgb(195, 151, 99);
+  font-size: 2rem;
+  padding-right: 3cm;
+  margin-right: 1cm;
+  letter-spacing: 5px;
+  padding-top: 2cm;
+}
+
+/*Malbec*/
+.titulo_malbec {
+  color: rgb(195, 151, 99);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2cm;
+  padding-left: 5cm;
+}
+
+.imagen_malbec {
+  margin-top: 2cm;
+  margin-right: 2cm;
+  padding-left: 2cm;
+}
+
+.texto_malbec {
+  color: rgb(195, 151, 99);
+  font-size: 2rem;
+  padding-right: 3cm;
+  margin-right: 1cm;
+  letter-spacing: 5px;
+  padding-top: 2cm;
+}
+
+/*Chardonnay*/
+#section_vinos2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 65vh;
+  column-gap: 1px;
+  margin-bottom: 1cm;
+  width: 100%;
+  align-items: center;
+  margin-top: 2cm;
+}
+
+/*Syrah*/
+.titulo_syrah {
+  color: rgb(195, 151, 99);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2cm;
+  margin-left: 1cm;
+}
+
+.imagen_syrah {
+  margin-right: 0cm;
+  margin-left: 1.7cm;
+  margin-top: 2cm;
+  padding-right: 1cm;
+}
+
+.texto_syrah {
+  color: rgb(195, 151, 99);
+  font-size: 2rem;
+  padding-right: 3.1cm;
+  margin-right: 1.2cm;
+  letter-spacing: 5px;
+}
+
+/*Chardonnay*/
+.titulo_chardonnay {
+  color: rgb(195, 151, 99);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2cm;
+  padding-left: 5cm;
+}
+
+.imagen_chardonnay {
+  margin-top: 2cm;
+  margin-right: 2cm;
+  padding-left: 1.5cm;
+}
+
+.texto_chardonnay {
+  color: rgb(195, 151, 99);
+  font-size: 2rem;
+  padding-right: 4.1cm;
+  margin-right: 0cm;
+  letter-spacing: 5px;
+  padding-top: 2cm;
+  margin-left: 1cm;
+}
+
+/*Bonarda*/
+#section_vinos3 {
+  display: flex;
+  height: 75vh;
+  margin-bottom: 1cm;
+  width: 100%;
+  align-items: center;
+}
+
+.titulo_bonarda {
+  color: rgb(195, 151, 99);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 1cm;
+  margin-left: 1cm;
+}
+
+.imagen_bonarda {
+  margin-top: 2cm;
+  padding-left: 1cm;
+}
+
+.texto_bonarda {
+  color: rgb(195, 151, 99);
+  font-size: 2rem;
+  letter-spacing: 5px;
+  padding-left: 1cm;
+  padding-right: 2cm;
+  padding-top: 1.5cm;
+  margin-left: 0.4cm;
+  width: 5vh;
+}
+
+.container_viñedos {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.class_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". div_gualtallary" "div_agrelo ." ". div_chacayes" "div_uva .";
+  width: 100%;
+}
+
+.class_titulosvinedo {
+  color: rgb(195, 151, 99);
+  margin-bottom: 0.5cm;
+  font-size: 4rem;
+}
+
+.div_gualtallary {
+  grid-area: div_gualtallary;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2cm;
+  margin-bottom: 4cm;
+  width: 80%;
+  align-items: center;
+}
+
+.class_img1 {
+  width: 500px;
+  height: 200px;
+  border-color: aliceblue;
+  border-style: solid;
+  border-width: 15px;
+}
+
+.div_agrelo {
+  grid-area: div_agrelo;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-left: 0.5cm;
+}
+
+.class_img2 {
+  width: 600px;
+  margin-left: 2cm;
+  margin-bottom: 4cm;
+  border-color: aliceblue;
+  border-style: solid;
+  border-width: 15px;
+}
+
+.div_chacayes {
+  grid-area: div_chacayes;
+  display: flex;
+  flex-direction: column;
+  margin-right: 6cm;
+  align-items: center;
+  width: 80%;
+}
+
+.class_img0 {
+  border-color: aliceblue;
+  border-style: solid;
+  border-width: 15px;
+}
+
+.div_uva {
+  grid-area: div_uva;
+  display: flex;
+  margin-left: 2cm;
+  margin-top: 2cm;
+  width: 80%;
+}
+
+.class_img4 {
+  border-color: aliceblue;
+  border-style: solid;
+  border-width: 15px;
+  height: 80%;
+}
+
+.container_sobrenosotros {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.article_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "class_imgjulian texto_julian" "texto_florencia class_imgflorencia";
+  width: 100%;
+}
+
+.class_imgjulian {
+  grid-area: class_imgjulian;
+  display: flex;
+  justify-content: center;
+}
+
+.img_julian {
+  width: 80%;
+  height: 90%;
+  margin-top: 2.1cm;
+}
+
+.texto_julian {
+  color: aliceblue;
+  font-size: 25px;
+  grid-area: texto_julian;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 83%;
+  letter-spacing: 4.5px;
+  margin-top: 2cm;
+  text-align: justify;
+}
+
+.strong_julian {
+  color: rgb(222, 201, 173);
+}
+
+.class_imgflorencia {
+  grid-area: class_imgflorencia;
+  display: flex;
+  justify-content: center;
+  margin-top: 4cm;
+}
+
+.img_florencia {
+  width: 80%;
+  height: 90%;
+}
+
+.texto_florencia {
+  grid-area: texto_florencia;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: 90%;
+  letter-spacing: 4.5px;
+  margin-top: 3.9cm;
+  text-align: justify;
+  margin-left: 1.5cm;
+  padding-bottom: 2cm;
+}
+
+.strong_florencia {
+  color: rgb(222, 201, 173);
+}
+
+.container_aclamacion {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.grid_aclamacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "class_malbec class_bonarda" "class_cabernetfranc class_syrah";
+  width: 100%;
+  text-align: center;
+  margin-top: 3.5cm;
+  padding-bottom: 2cm;
+  height: 1600px;
+}
+
+.class_malbec {
+  grid-area: class_malbec;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.class_bonarda {
+  grid-area: class_bonarda;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.class_cabernetfranc {
+  grid-area: class_cabernetfranc;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5cm;
+}
+
+.class_syrah {
+  grid-area: class_syrah;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5cm;
+}
+
+.color_titulo {
+  color: rgb(195, 151, 99);
+  margin-bottom: 1cm;
+  font-size: 2.1em;
+}
+
+.color_texto {
+  color: rgb(195, 151, 99);
+  width: 60%;
+  margin-top: 1cm;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .grid_aclamacion {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "class_malbec" "class_bonarda" "class_cabernetfranc" "class_syrah";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 89%;
+  }
+  .class_bonarda {
+    margin-top: 1cm;
+  }
+  .container_aclamacion {
+    height: 3900px;
+  }
+  .color_titulo {
+    width: 70%;
+  }
+  .color_texto {
+    width: 70%;
+  }
+}
+.container_contacto {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.grid_contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 1200px;
+  width: 100%;
+}
+
+.class_titulo {
+  color: rgb(98, 79, 54);
+  font-size: 5rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 2cm;
+  text-align: center;
+}
+
+.class_contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.class_h2 {
+  color: rgb(98, 79, 54);
+  font-size: 3.5rem;
+  margin-right: 2cm;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4cm;
+}
+
+.class_ul {
+  color: rgb(98, 79, 54);
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 35%;
+  margin-top: 2.5cm;
+}
+
+.class_mapa {
+  margin-top: 1.5cm;
+}
+
+.class_imglogo {
+  display: flex;
+  flex-direction: column;
+}
+
+.class_imglog {
+  margin-left: 6.8cm;
+  margin-top: 4cm;
+}
+
+.color_maintexto {
+  color: rgb(98, 79, 54);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 5cm;
+  margin-left: 4.3cm;
+  width: 60%;
+  text-align: justify;
+}
+
+.class_redes {
+  width: 40%;
+  margin-left: 5.7cm;
+  margin-top: 1cm;
+}
+
+/*# sourceMappingURL=estilos.css.map */

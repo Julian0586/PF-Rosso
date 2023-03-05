@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 65.5%;
+
+}
+body {
+    background-color: black;
+    
+}
+
+header {
+    background-color: rgb(60, 65, 66);
+
+}
+
+.class_div {
+    color: rgb(214, 192, 125);
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 6cm;
+}
+
+.navbar-nav {
+    font-size: 2rem;
+    margin-top: 3cm;
+}
+.class_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 0.5cm;
+}
+
+.logobodega {
+    width: 6cm;
+} 
+li {
+    display: inline-block;
+    
+}
+
+
+.ul_nav{
+    font-family: 'Noto Sans JP', sans-serif;
+    list-style: none;
+    display: flex;
+    padding-top: 4cm;
+    overflow: hidden;
+}    
+
+a:hover{
+    color: rgb(217, 195, 142);
+}
+
+
+.main_fondo {
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/21/21/15/botti-329375_960_720.jpg);
+    background-repeat: no-repeat; 
+    background-size: 1200px 1200px;
+    background-position: center;
+    margin-top: 3cm;
+    height: 1000px;
+    width: 100%;
+    margin-bottom: 3cm;
+    display: flex;
+    align-items: center;
+}
+.section_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.texto_bodega {
+    color:rgb(195, 151, 99);
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    width: 90%;
+    margin-top: 2cm;
+    
+}
+
+footer {
+    background-color: rgb(60, 65, 66);
+    width: 100%;
+}
+
+
+.class_redes1 {
+    width: 20%;
+    margin-left: 70%;
+}
+
+.whatsaap1 {
+    position: fixed;
+    top: 670px;
+}
+
+.whatsaap {
+    width: 50px;
+    height: 50px;
+}
+@media screen and (max-width:768px) {
+    footer {
+        height: 170px;
+        width: 100%;
+    }
+    .class_redes1 {
+        width: 50%;
+        height: 90px;
+        margin-left: 0;
+    }
+    
+}
+div{
+    color: aqua;
+}

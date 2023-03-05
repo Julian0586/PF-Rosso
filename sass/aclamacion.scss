@@ -1,0 +1,90 @@
+.container_aclamacion {
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.grid_aclamacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+    "class_malbec class_bonarda"
+    "class_cabernetfranc class_syrah";
+    width: 100%;
+    text-align: center;
+    margin-top: 3.5cm;
+    padding-bottom: 2cm;
+    height: 1600px;
+}
+
+.class_malbec {
+    grid-area: class_malbec;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.class_bonarda {
+    grid-area: class_bonarda;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.class_cabernetfranc {
+    grid-area: class_cabernetfranc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5cm;
+}
+
+.class_syrah {
+    grid-area: class_syrah;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5cm;
+}
+
+.color_titulo {
+    color: rgb(195, 151, 99);
+    margin-bottom: 1cm;
+    font-size: 2.1em;
+}
+
+.color_texto {
+    color: rgb(195, 151, 99);
+    width: 60%;
+    margin-top: 1cm;
+    font-size: 2rem;
+    text-align: justify;
+}
+@media screen and (max-width:768px) {
+    .grid_aclamacion {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "class_malbec"
+    "class_bonarda"
+    "class_cabernetfranc"
+    "class_syrah";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 89%;
+    }
+    .class_bonarda {
+        margin-top: 1cm;
+    }
+    
+    .container_aclamacion {
+    height: 3900px;
+    }
+    .color_titulo {
+        width: 70%;
+    }
+    .color_texto {
+        width: 70%;
+    }
+}

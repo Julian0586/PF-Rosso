@@ -1,0 +1,72 @@
+.container_contacto {
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.grid_contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 1200px;
+    width: 100%;
+}
+
+.class_titulo {
+    color: rgb(98, 79, 54);
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2cm;
+    text-align: center;
+}
+
+.class_contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.class_h2 {
+    color: rgb(98, 79, 54);
+    font-size: 3.5rem;
+    margin-right: 2cm;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4cm;
+}
+
+.class_ul {
+    color: rgb(98, 79, 54);
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    margin-top: 2.5cm;
+}
+
+.class_mapa {
+    margin-top: 1.5cm;
+}
+
+.class_imglogo {
+    display: flex;;
+    flex-direction: column;
+}
+
+.class_imglog {
+    margin-left: 6.8cm;
+    margin-top: 4cm;
+}
+
+.color_maintexto {
+    color: rgb(98, 79, 54) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 5cm;
+    margin-left: 4.3cm;
+    width: 60%;
+    text-align: justify;
+}
+
+.class_redes {
+    width: 40%;
+    margin-left: 5.7cm;
+    margin-top: 1cm;
+}

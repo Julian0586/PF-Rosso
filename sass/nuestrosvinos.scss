@@ -1,0 +1,176 @@
+
+.container_nuestrosvinos {
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.class_vinedo {
+    height: 2000px;
+}
+
+#section_vinos1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 60vh;
+    column-gap: 1px;
+    margin-bottom: 1cm;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.titulo_cabernet {
+    color: rgb(195, 151, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2cm;
+    margin-left: 1cm;
+}
+
+.imagen_cabernet {
+    margin-right: 0.2cm;
+    margin-top: 2cm;
+    margin-left: 0.5cm;
+    padding-right: 1cm;
+    padding-left: 0cm;
+}
+
+.texto_cabernet {
+    color: rgb(195, 151, 99);
+    font-size: 2rem;
+    padding-right: 3cm ;
+    margin-right: 1cm;
+    letter-spacing: 5px;
+    padding-top: 2cm;
+}
+
+
+/*Malbec*/
+
+.titulo_malbec {
+    color: rgb(195, 151, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2cm;
+    padding-left: 5cm;
+}
+
+.imagen_malbec {
+    margin-top: 2cm;
+    margin-right: 2cm;
+    padding-left: 2cm;
+}
+
+.texto_malbec {
+    color: rgb(195, 151, 99);
+    font-size: 2rem;
+    padding-right: 3cm ;
+    margin-right: 1cm;
+    letter-spacing: 5px;
+    padding-top: 2cm;
+}
+
+/*Chardonnay*/
+
+#section_vinos2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 65vh;
+    column-gap: 1px;
+    margin-bottom: 1cm;
+    width: 100%;
+    align-items: center;
+    margin-top: 2cm;
+}
+
+/*Syrah*/
+
+.titulo_syrah {
+    color: rgb(195, 151, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2cm;
+    margin-left: 1cm;
+}
+
+.imagen_syrah {
+    margin-right: 0cm;
+    margin-left: 1.7cm;
+    margin-top: 2cm;
+    padding-right: 1cm;
+
+}
+
+.texto_syrah {
+    color: rgb(195, 151, 99);
+    font-size: 2rem;
+    padding-right: 3.1cm ;
+    margin-right: 1.2cm;
+    letter-spacing: 5px;
+}
+
+/*Chardonnay*/
+
+
+.titulo_chardonnay {
+    color: rgb(195, 151, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2cm;
+    padding-left: 5cm;
+}
+
+.imagen_chardonnay {
+    margin-top: 2cm;
+    margin-right: 2cm;
+    padding-left: 1.5cm;
+}
+
+.texto_chardonnay {
+    color: rgb(195, 151, 99);
+    font-size: 2rem;
+    padding-right: 4.1cm ;
+    margin-right: 0cm;
+    letter-spacing: 5px;
+    padding-top: 2cm;
+    margin-left: 1cm;
+}
+
+/*Bonarda*/
+
+#section_vinos3 {
+    display: flex;
+    height: 75vh;
+    margin-bottom: 1cm;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.titulo_bonarda {
+    color: rgb(195, 151, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 1cm;
+    margin-left: 1cm;
+}
+
+.imagen_bonarda {
+    margin-top: 2cm;
+    padding-left: 1cm;
+}
+
+.texto_bonarda {
+    color: rgb(195, 151, 99);
+    font-size: 2rem;
+    letter-spacing: 5px;
+    padding-left: 1cm;
+    padding-right: 2cm;
+    padding-top: 1.5cm;
+    margin-left: 0.4cm;
+    width: 5vh;
+}

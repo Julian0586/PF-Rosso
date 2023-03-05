@@ -1,0 +1,84 @@
+.container_viñedos{ 
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+    
+    }
+
+.class_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". div_gualtallary"
+    "div_agrelo ."
+    ". div_chacayes"
+    "div_uva .";
+    width: 100%;
+}
+.class_titulosvinedo {
+    color: rgb(195, 151, 99);
+    margin-bottom: 0.5cm;
+    font-size: 4rem;
+}
+.div_gualtallary {
+    grid-area: div_gualtallary;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2cm;
+    margin-bottom: 4cm;
+    width: 80%;
+    align-items: center;
+
+}
+.class_img1 {
+    width: 500px;
+    height: 200px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 15px;
+}
+
+.div_agrelo {
+    grid-area: div_agrelo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: 0.5cm;
+}
+.class_img2 {
+    width: 600px;
+    margin-left: 2cm;
+    margin-bottom: 4cm;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 15px;
+}
+
+.div_chacayes {
+    grid-area: div_chacayes;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6cm;
+    align-items: center;
+    width: 80%;
+}
+
+.class_img0 {
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 15px;
+}
+
+.div_uva {
+    grid-area: div_uva ;
+    display: flex;
+    margin-left: 2cm;
+    margin-top: 2cm;
+    width: 80%;
+}
+.class_img4 {
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 15px;
+    height: 80%;
+}
