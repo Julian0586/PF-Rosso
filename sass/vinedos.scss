@@ -1,6 +1,5 @@
 .container_viñedos{ 
     background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
-    
     }
 
 .class_grid{
@@ -12,7 +11,7 @@
     "div_agrelo ."
     ". div_chacayes"
     "div_uva .";
-    width: 100%;
+    overflow: hidden;
 }
 .class_titulosvinedo {
     color: rgb(195, 151, 99);
@@ -34,7 +33,13 @@
     height: 200px;
     border-color: aliceblue;
     border-style: solid;
-    border-width: 15px;
+    border-width: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.class_img1:hover {
+    transform: scale(1.7);
+    transform-origin: center center;
 }
 
 .div_agrelo {
@@ -44,7 +49,14 @@
     align-items: center;
     width: 80%;
     margin-left: 0.5cm;
+    transition: all .5s ease-in-out;
 }
+
+.div_agrelo:hover {
+    transform: translateX(300px);
+
+}
+
 .class_img2 {
     width: 600px;
     margin-left: 2cm;
@@ -61,6 +73,11 @@
     margin-right: 6cm;
     align-items: center;
     width: 80%;
+    transition: all .5s ease-in-out;
+}
+
+.div_chacayes:hover {
+    transform: translatey(300px);
 }
 
 .class_img0 {
@@ -75,6 +92,12 @@
     margin-left: 2cm;
     margin-top: 2cm;
     width: 80%;
+    transition: all .5s ease-in-out;
+}
+
+.div_uva:hover {
+    transform: translate(200px, -80px) ;
+
 }
 .class_img4 {
     border-color: aliceblue;
@@ -82,3 +105,45 @@
     border-width: 15px;
     height: 80%;
 }
+
+@media screen  and (max-width: 768px) {
+    .class_grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "div_gualtallary"
+        "div_agrelo"
+        "div_chacayes"
+        "div_uva";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1600px;
+        }
+        .class_img1 {
+            width: 120%;
+            border-width: 7px;
+        }
+        .class_img2 {
+            width: 120%;
+            margin-right: 2.5cm;
+            border-width: 7px;
+        }
+        .class_chacayes {
+            margin-left: 6cm;
+        }
+        .class_img0 {
+            width: 120%;
+            border-width: 7px;
+            margin-left: 6cm;
+        }
+        .div_uva {
+            margin-right: 2cm;
+            margin-top: 2.5cm;
+        }
+        .class_img4 {
+            width: 130%;
+            border-width: 7px;
+        }
+}
+

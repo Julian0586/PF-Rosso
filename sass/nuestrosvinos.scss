@@ -14,8 +14,6 @@
     "row_bonarda .";
     margin-top: 2cm;
     overflow: hidden;
-    
-    
 }
 
 .row_cabernet {
@@ -66,6 +64,11 @@
     color: variables.$color_texto;
     font-size: variables.$parrafo_size;
     font-family: variables.$font_size;
+    transition: all .8s ease-in-out;
+}
+.row_parrafo:hover {
+    transform: scale(1.5);
+    transform-origin: center center;
 }
 
 .variables_titulo {
@@ -77,22 +80,21 @@
 }
 @media screen and (max-width:768px) {
     .grid_nuestrosvinos {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    "row_cabernet"
-    "row_malbec"
-    "row_syrah" 
-    "row_chardonnay"
-    "row_bonarda .";
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "row_cabernet"
+        "row_malbec"
+        "row_syrah" 
+        "row_chardonnay"
+        "row_bonarda .";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
     .class_imagen {
         margin-left: 1cm;
-
     }
     .row_parrafo {
         font-size: 1em;
@@ -104,5 +106,4 @@
     .class_tit {
         padding-left: 0.8cm;
     }
-
-    }
+}

@@ -28,7 +28,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 .class_cabernetfranc {
@@ -60,26 +59,26 @@
     font-size: 2rem;
     text-align: justify;
 }
+
 @media screen and (max-width:768px) {
     .grid_aclamacion {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    "class_malbec"
-    "class_bonarda"
-    "class_cabernetfranc"
-    "class_syrah";
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 89%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "class_malbec"
+        "class_bonarda"
+        "class_cabernetfranc"
+        "class_syrah";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 89%;
     }
     .class_bonarda {
         margin-top: 1cm;
     }
-    
     .container_aclamacion {
-    height: 3900px;
+        height: 3900px;
     }
     .color_titulo {
         width: 70%;

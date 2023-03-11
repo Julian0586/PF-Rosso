@@ -8,6 +8,7 @@
     grid-template-rows: 1fr;
     height: 1200px;
     width: 100%;
+    overflow: hidden;
 }
 
 .class_titulo {
@@ -70,3 +71,48 @@
     margin-left: 5.7cm;
     margin-top: 1cm;
 }
+
+@media screen  and (max-width: 768px) {
+    .grid_contacto {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "class_titulo"
+        "class_h2"
+        "class_ul"
+        "class_redes3"
+        "class_mapa";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1050px;
+        width: 100%;
+    }
+    .class_titulo {
+        font-size: 3.5em;
+    }
+    .class_h2 {
+        padding-right: 0.5cm;
+    }
+    .class_ul {
+        width: 50%;
+        margin-right: 2cm;
+        font-size: 2em;
+    }
+    .class_redes3 {
+        margin-right: 0.5cm;
+    }
+    .class_imglog {
+        display: none;
+    }
+    .color_maintexto {
+        display:  none;
+    }
+} 
+
+
+
+
+
+
+
