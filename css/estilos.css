@@ -135,6 +135,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  border-bottom: 1px solid rgb(166, 134, 111);
 }
 
 .row_malbec {
@@ -142,6 +143,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  border-bottom: 1px solid rgb(166, 134, 111);
 }
 
 .row_syrah {
@@ -149,6 +151,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  border-bottom: 1px solid rgb(166, 134, 111);
 }
 
 .row_chardonnay {
@@ -156,6 +159,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  border-bottom: 1px solid rgb(166, 134, 111);
 }
 
 .row_bonarda {
@@ -441,7 +445,7 @@ hr {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 1cm;
+    margin-top: 2cm;
   }
   .class_imgjulian {
     border-color: rgb(247, 224, 195);
@@ -455,12 +459,14 @@ hr {
   }
   .texto_julian {
     font-size: 1.6em;
+    margin-top: 2.5cm;
+    text-align: center;
   }
   .class_imgflorencia {
     border-color: rgb(247, 224, 195);
     border-style: solid;
     border-width: 7px;
-    margin-top: 2cm;
+    margin-top: 1cm;
   }
   .img_florencia {
     width: 100%;
@@ -468,8 +474,10 @@ hr {
   }
   .texto_florencia {
     font-size: 1.7em;
-    padding-right: 1cm;
     margin-top: 1cm;
+    padding-right: 1cm;
+    margin-right: 0.5cm;
+    text-align: center;
   }
 }
 .container_aclamacion {
@@ -508,6 +516,7 @@ hr {
   align-items: center;
   flex-direction: column;
   margin-top: 5cm;
+  border-bottom: 1px solid rgb(166, 134, 111);
 }
 
 .class_syrah {
@@ -516,6 +525,7 @@ hr {
   align-items: center;
   flex-direction: column;
   margin-top: 5cm;
+  border-bottom: 1px solid rgb(166, 134, 111);
 }
 
 .color_titulo {
@@ -574,8 +584,14 @@ hr {
   font-family: "Times New Roman", Times, serif;
   margin-top: 2cm;
   text-align: center;
+  animation: move 5s ease-in-out infinite;
 }
 
+@keyframes move {
+  0% {
+    transform: translate(-20%, 0%);
+  }
+}
 .class_contacto {
   display: flex;
   flex-direction: column;
@@ -642,6 +658,8 @@ hr {
   }
   .class_titulo {
     font-size: 3.5em;
+    border-bottom: 1px solid rgb(166, 134, 111);
+    padding-bottom: 1cm;
   }
   .class_h2 {
     padding-right: 0.5cm;

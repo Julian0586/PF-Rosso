@@ -17,13 +17,23 @@
     font-family: 'Times New Roman', Times, serif;
     margin-top: 2cm;
     text-align: center;
+    animation: move 5s ease-in-out infinite;
+}
+@keyframes move {
+    0%{
+        transform: translate(-20%,0%);
+    }
 }
 
-.class_contacto {
+
+@mixin flex-column-center-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.class_contacto {
+    @include flex-column-center-center;
 }
 
 .class_h2 {
@@ -90,6 +100,8 @@
     }
     .class_titulo {
         font-size: 3.5em;
+        border-bottom: 1px solid rgb(166, 134, 111);
+        padding-bottom: 1cm;
     }
     .class_h2 {
         padding-right: 0.5cm;
