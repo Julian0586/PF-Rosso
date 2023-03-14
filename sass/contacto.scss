@@ -17,10 +17,10 @@
     font-family: 'Times New Roman', Times, serif;
     margin-top: 2cm;
     text-align: center;
-    animation: move 5s ease-in-out infinite;
+    animation: move 3s ease-in-out infinite;
 }
 @keyframes move {
-    0%{
+    60%{
         transform: translate(-20%,0%);
     }
 }

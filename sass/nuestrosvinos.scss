@@ -67,7 +67,7 @@
     margin-top: 1cm;
     color: variables.$color_texto;
     font-size: variables.$parrafo_size;
-    font-family: variables.$font_size;
+    font-family: variables.$font_family;
     transition: all .8s ease-in-out;
 }
 .row_parrafo:hover {
@@ -78,7 +78,7 @@
 .variables_titulo {
     color: variables.$color_texto;
     font-size: variables.$texto_size;
-    font-family: variables.$font_size;
+    font-family: variables.$font_family;
     padding-left: 2cm;
 }
 @media screen and (max-width:768px) {

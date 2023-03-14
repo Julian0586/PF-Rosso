@@ -119,6 +119,19 @@
         flex-direction: column;
         align-items: center;
         height: 1600px;
+        overflow: hidden;
+        }
+        .class_img1:hover {
+            display: none;
+        }
+        .div_agrelo:hover {
+            display: none;
+        }
+        .div_chacayes:hover {
+            display: none;
+        }
+        .div_uva:hover {
+            display: none;
         }
         .class_img1 {
             width: 120%;
