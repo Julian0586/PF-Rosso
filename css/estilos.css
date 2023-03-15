@@ -642,12 +642,12 @@ hr {
   font-family: "Times New Roman", Times, serif;
   margin-top: 2cm;
   text-align: center;
-  animation: move 3s ease-in-out infinite;
+  animation: move 4s ease-in-out infinite;
 }
 
 @keyframes move {
   60% {
-    transform: translate(-20%, 0%);
+    transform: translate(-10%, 0%);
   }
 }
 .class_contacto {

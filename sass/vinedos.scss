@@ -13,11 +13,13 @@
     "div_uva .";
     overflow: hidden;
 }
+
 .class_titulosvinedo {
     color: rgb(195, 151, 99);
     margin-bottom: 0.5cm;
     font-size: 4rem;
 }
+
 .div_gualtallary {
     grid-area: div_gualtallary;
     display: flex;
@@ -26,8 +28,8 @@
     margin-bottom: 4cm;
     width: 80%;
     align-items: center;
-
 }
+
 .class_img1 {
     width: 500px;
     height: 200px;
@@ -97,8 +99,8 @@
 
 .div_uva:hover {
     transform: translate(200px, -80px) ;
-
 }
+
 .class_img4 {
     border-color: aliceblue;
     border-style: solid;
