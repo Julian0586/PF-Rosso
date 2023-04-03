@@ -2,6 +2,10 @@
     background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
 }
 
+.navbar-toggler-icon{
+    background-color: white;
+}   
+
 .grid_contacto {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,7 +28,6 @@
         transform: translate(-10%,0%);
     }
 }
-
 
 @mixin flex-column-center-center {
     display: flex;

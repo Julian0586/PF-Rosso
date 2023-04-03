@@ -24,6 +24,10 @@ header {
   margin-bottom: 6cm;
 }
 
+.navbar-toggler-icon {
+  background-color: white;
+}
+
 .navbar-nav {
   font-size: 2rem;
   margin-top: 3cm;
@@ -115,6 +119,10 @@ footer {
 }
 .container_nuestrosvinos {
   background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.navbar-toggler-icon {
+  background-color: white;
 }
 
 .grid_nuestrosvinos {
@@ -219,6 +227,10 @@ footer {
 }
 .container_viñedos {
   background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.navbar-toggler-icon {
+  background-color: white;
 }
 
 .class_grid {
@@ -375,6 +387,10 @@ footer {
   background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
 }
 
+.navbar-toggler-icon {
+  background-color: white;
+}
+
 .article_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -491,6 +507,10 @@ hr {
 }
 .container_aclamacion {
   background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.navbar-toggler-icon {
+  background-color: white;
 }
 
 .grid_aclamacion {
@@ -625,6 +645,10 @@ hr {
 }
 .container_contacto {
   background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/21/texture-1027797_960_720.jpg);
+}
+
+.navbar-toggler-icon {
+  background-color: white;
 }
 
 .grid_contacto {
